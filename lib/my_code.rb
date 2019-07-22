@@ -20,6 +20,6 @@ def reduce(array, starting_point = 0)
     i += 1
   end
 
-   return result == 0 ? true : result
+   return result #== 0 ? true : result
 
  end
