@@ -3,4 +3,4 @@ def negative_map(array)
   yield
 end
 
-map() {|n| n * -1}
+negative_map() {|n| n * -1}
