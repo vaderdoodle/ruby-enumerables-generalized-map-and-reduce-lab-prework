@@ -10,3 +10,4 @@ def map(array)
 
    return result_array
 end
+
