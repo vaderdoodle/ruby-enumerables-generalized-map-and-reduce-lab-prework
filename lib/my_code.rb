@@ -1,5 +1,5 @@
 # Your Code Here
-def map(array)
+def negative_map(array)
   yield
 end
 
