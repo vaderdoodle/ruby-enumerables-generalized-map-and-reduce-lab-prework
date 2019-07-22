@@ -1,6 +1,4 @@
 # Your Code Here
 def negative_map(array)
-  yield
+  { |n| n * -1 }
 end
-
-negative_map() {|n| n * -1}
