@@ -3,4 +3,4 @@ def map(array)
   yield
 end
 
-map(array) {|n| n * -1}
+map() {|n| n * -1}
