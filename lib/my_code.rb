@@ -1,6 +1,6 @@
 # Your Code Here
 def map(array)
-  do
-    |n| n * -1
-  end
+  yield
 end
+
+map(array) {|n| n * -1}
